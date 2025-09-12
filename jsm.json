@@ -1,5 +1,6 @@
 {
 	"spider":"./pg.jar",
+	"spider":"./spider.jar",
 	"sites":[
 		{
 			"key": "豆瓣",
@@ -12,10 +13,11 @@
 			"ext": "./lib/tokenm.json$$$./lib/douban.json"
 		},
 		{
+        {
             "key": "浪酷影视",
             "name": "浪酷｜APP",
             "type": 3,
-            "api": "https://github.com/cefiro131421/DD/master/spider?site=AppRJ",
+            "api": "csp_AppRJ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
