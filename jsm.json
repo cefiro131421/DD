@@ -15,7 +15,7 @@
             "key": "浪酷影视",
             "name": "浪酷｜APP",
             "type": 3,
-            "api": "csp_AppRJ",
+            "api": "https://github.com/cefiro131421/DD/blob/master/spider?site=浪酷",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
