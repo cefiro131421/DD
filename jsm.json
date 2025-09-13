@@ -11,6 +11,52 @@
 			"indexs":1,
 			"ext": "./lib/tokenm.json$$$./lib/douban.json"
 		},
+		{
+            "key": "热播影视",
+            "name": "热播｜APP",
+            "type": 3,
+	        "jar": "./spider.jar",
+            "api": "csp_AppRJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+            "url": "http://v.rbotv.cn"
+            }
+        },
+		{
+            "key": "浪酷影视",
+            "name": "浪酷｜APP",
+            "type": 3,
+			"jar": "./spider.jar",
+            "api": "csp_AppRJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "url": "http://v.lkuys.cn"
+            }
+        },
+		{
+            "key": "金牌影视",
+            "name": "金牌｜影视",
+            "type": 3,
+			"jar": "./spider.jar",
+            "api": "csp_Jpys",
+            "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+        },
+		{
+            "key": "移动",
+            "name": "移动｜APP",
+            "type": 3,
+			"jar": "./spider.jar",
+            "api": "csp_YD",
+            "searchable": 1,
+            "quickSearch": 1,
+            "style": {
+                "type": "list"
+            }
+        },
 		{"key":"TGDouban","name":"TG豆瓣","type":3,"api":"csp_TGDouban","timeout":120, 
 			"ext":{
 				"token":"./lib/tokenm.json",
