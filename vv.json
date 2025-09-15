@@ -203,28 +203,6 @@
       "changeable": 0,
       "ext":"http://127.0.0.1:9966/api/proxy/https://lemonlive25.pages.dev"
     },
-//    {
-//      "key": "玩偶 | 清影",
-//      "name": "玩偶 | 清影",
-//      "type": 3,
-//      "api": "csp_kongbai",
-//      "searchable": 1,
-//      "changeable": 0,
-//      "ext": {
-//        "commonConfig": "./json/peizhi.json",
-//        "siteUrl": "https://revohd.com/",
-//        "filter": "./json/wogg.json"
-//      }
-//    },
-    {
-      "key": "玩偶 | 大玩偶",
-      "name": "玩偶 | 大玩偶",
-      "type": 3,
-      "api": "csp_kongbai",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "commonConfig": "./json/peizhi.json",
     {
       "key": "玩偶 | 二小",
       "name": "玩偶 | 二小",
@@ -410,7 +388,6 @@
         "commonConfig": "./json/peizhi.json"
       }
     },
-
     {
       "key": "易搜",
       "name": "易搜 | 4K",
