@@ -171,7 +171,7 @@
     },
     {
       "key": "ConfigCenter",
-      "name": "配置中心",
+      "name": "配置 | 中心",
       "type": 3,
       "api": "csp_ConfigCenter",
       "searchable": 0,
@@ -182,7 +182,7 @@
     },
     {
        "key": "盘搜",
-       "name": "盘搜",
+       "name": "盘搜 | 综合",
        "type": 3,
        "api": "csp_TgYunDouBanPan",
        "searchable": 1,
@@ -193,15 +193,6 @@
             "channelUsername": "",
     "commonConfig": "./json/peizhi.json"
       }
-    },
-    {
-      "key": "游戏 | 直播",
-      "name": "游戏 | 直播",
-      "type": 3,
-      "api": "csp_Living",
-      "searchable": 1,
-      "changeable": 0,
-      "ext":"http://127.0.0.1:9966/api/proxy/https://lemonlive25.pages.dev"
     },
     {
       "key": "玩偶 | 二小",
@@ -231,7 +222,7 @@
     },
     {
       "key": "盤搜索",
-      "name": "网盘 | 盤搜索",
+      "name": "网盘 | 盤搜",
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
@@ -291,22 +282,8 @@
       }
     },
     {
-      "key": "小雷",
-      "name": "网盘 | 小雷",
-      "type": 3,
-      "api": "csp_PanTa",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "ext": {
-        "siteUrl": "https://www.leijing1.com/",
-        "cookie": "JSESSIONID=B24E6992236274BD6A636FE8EAA2FDA; cms_token=25968d70e1c64c3fa475c5bb15946443; cms_accessToken=8c67340ebecb46b88f9c85492bfe1cf1; cms_refreshToken=0af0ab743ae243be99b29c2af5b449a",
-        "commonConfig": "./json/peizhi.json"
-      }
-    },
-    {
       "key": "360资源",
-      "name": "360资源-采集",
+      "name": "360 | 采集",
       "type": 1,
       "api": "https://360zy.com/api.php/seaxml/vod/",
       "searchable": 1,
@@ -345,7 +322,7 @@
     },
     {
       "key": "非凡",
-      "name": "非凡",
+      "name": "非凡 | 采集",
       "type": 1,
       "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -393,7 +370,7 @@
     },
     {
       "key": "量子",
-      "name": "量子",
+      "name": "量子 | 采集",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/",
       "searchable": 1,
