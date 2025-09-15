@@ -15,7 +15,7 @@
             "key": "热播影视",
             "name": "热播｜APP",
             "type": 3,
-	        "jar": "https://github.com/cefiro131421/DD/raw/Pg/spider.jar",
+	        "jar": "./spider.jar",
             "api": "csp_AppRJ",
             "searchable": 1,
             "quickSearch": 1,
