@@ -60,6 +60,163 @@
       }
     },
     {
+      "key": "热播影视",
+      "name": "热播｜APP",
+      "type": 3,
+      "jar": "./spider.jar",
+      "api": "csp_AppRJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+      "url": "http://v.rbotv.cn"
+    }
+      },
+    {
+      "key": "浪酷影视",
+      "name": "浪酷｜APP",
+      "type": 3,
+      "jar": "./spider.jar",
+      "api": "csp_AppRJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+      "url": "http://v.lkuys.cn"
+      }
+    },
+    {
+      "key": "金牌影视",
+      "name": "金牌｜影视",
+      "type": 3,
+      "jar": "./spider.jar",
+      "api": "csp_Jpys",
+      "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+    },
+    {
+      "key": "移动",
+      "name": "移动｜APP",
+      "type": 3,
+      "jar": "./spider.jar",
+      "api": "csp_YD",
+      "searchable": 1,
+      "quickSearch": 1,
+      "style": {
+      "type": "list"
+      }
+    },
+    {
+      "key": "一三",
+      "name": "一三丨APP",
+      "type": 3,
+      "quickSearch": 1,
+      "jar": "./spider.jar",
+      "api": "csp_AppQi",     
+      "ext": {
+      "url": "",
+      "site": "https://cdn-tupic-duofun-neimenggu.56uxi.com/1.txt",
+      "dataKey": "qwertyuiopqwerty",
+      "dataIv": "qwertyuiopqwerty",
+      "deviceId": "",
+      "version": "",
+      "ua": ""
+      }
+    },
+    {
+      "key": "奇优影视",
+      "name": "奇优｜影视",
+      "type": 3,
+      "jar": "./spider.jar",
+      "api": "csp_Qiyou"
+    },
+    {
+      "key": "苹果影视",
+      "name": "苹果｜影视",
+      "type": 3,
+      "jar": "./spider.jar",
+      "api": "csp_LiteApple",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "低端影视",
+      "name": "低端｜影视",
+      "type": 3,
+      "jar": "./spider.jar",
+      "api": "csp_Ddys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "布雷",
+      "name": "布雷丨APP",
+      "type": 3,
+      "quickSearch": 1,
+      "jar": "./spider.jar",
+      "api": "csp_AppGet",
+      "ext": {
+      "url": "https://cms.bl4k.cc",
+      "site": "",
+      "dataKey": "B7uaxcwdpX2dww82",
+      "dataIv": "B7uaxcwdpX2dww82",
+      "deviceId": "",
+      "version": "",
+      "ua": ""
+      }
+    },
+    {
+      "key": "仓鼠",
+      "name": "仓鼠｜APP",
+      "type": 3,
+      "quickSearch": 1,
+      "jar": "./spider.jar",
+      "api": "csp_AppQi",
+      "ext": {
+      "url": "",
+      "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
+      "dataKey": "da61247f5b662597",
+      "dataIv": "da61247f5b662597",
+      "deviceId": "",
+      "version": "120"
+      }
+    },
+    {
+      "key": "咖啡",
+      "name": "咖啡丨APP",
+      "type": 3,
+      "quickSearch": 1,
+      "jar": "./spider.jar",
+      "api": "csp_AppQi",
+      "ext": {
+      "url": "",
+      "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt",
+      "dataKey": "37kj83zs1q16jk6t",
+      "dataIv": "37kj83zs1q16jk6t",
+      "deviceId": "",
+      "version": "101",
+      "ua": ""
+      }
+    },
+    {
+      "key": "加菲",
+      "name": "加菲丨APP",
+      "type": 3,
+      "quickSearch": 1,
+      "jar": "./spider.jar",
+      "api": "csp_AppQi",
+      "ext": {
+      "url": "",
+      "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj1.txt",
+      "dataKey": "dksvndkaAjekakcE",
+      "dataIv": "dksvndkaAjekakcE",
+      "deviceId": "",
+      "version": "",
+      "ua": ""
+      }
+    },
+    {
       "key": "ConfigCenter",
       "name": "配置中心",
       "type": 3,
