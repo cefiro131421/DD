@@ -3,41 +3,9 @@
   "wallpaper": "https://bing.img.run/rand.php",
   "lives": [
     {
-      "name": "feiyang.allinone",
+      "name": "冰茶",
       "type": 0,
-      "url": "http://127.0.0.1:35457/tv.m3u",
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "feiyang.bililive",
-      "type": 0,
-      "url": "http://127.0.0.1:35457/bililive.m3u",
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "feiyang.huyayqk",
-      "type": 0,
-      "url": "http://127.0.0.1:35457/huyayqk.m3u",
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "feiyang.douyuyqk",
-      "type": 0,
-      "url": "http://127.0.0.1:35457/douyuyqk.m3u",
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "feiyang.yylunbo",
-      "type": 0,
-      "url": "http://127.0.0.1:35457/yylunbo.m3u",
+      "url": "https://188766.xyz/bingcha",
       "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -45,21 +13,20 @@
   ],
   "sites": [
     {
-      "key": "Tg | 豆瓣",
-      "name": "Tg | 豆瓣",
-      "type": 3,
-      "api": "csp_TgYunDouBanPan",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "siteUrl": "http://127.0.0.1:9999",
-        "count": 4,
-        "channelUsername": "+P4IU1QbK4ChlNTYx,+h10ulzfxiQZiYTdi,+cpJ_dIx_hlYxMWQx,+Jc37JCr1diEzNDMx,leoziyuan,ResourceUniverse,BaiduCloudDisk,SharePanBaidu,bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,yunpanchat,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,Lsp115,alyp_1",
-        "commonConfig": "./json/peizhi.json",
-        "filter": "./json/douban.json"
+       "key": "盘搜",
+       "name": "盘搜",
+       "type": 3,
+       "api": "csp_TgYunDouBanPan",
+       "searchable": 1,
+       "changeable": 0,
+       "ext": {
+    "siteUrl": "https://zxps.banye.tech:7777",
+            "count": 5,
+            "channelUsername": "",
+    "commonConfig": "./json/peizhi.json"
       }
     },
-    {
+    {  
       "key": "热播影视",
       "name": "热播｜APP",
       "type": 3,
