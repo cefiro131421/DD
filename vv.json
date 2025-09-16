@@ -31,7 +31,7 @@
       "name": "瓜子 | App",
       "type": 3,
       "jar": "/spider.jar",
-      "api": "csp_Guazi",
+      "api": "csp_Gz360",
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
