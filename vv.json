@@ -27,15 +27,15 @@
       }
     },
     {
-            "key": "瓜子影视",
-            "name": "瓜子｜影视",
-            "type": 3,
-      "jar": "/spider.jar",
-            "api": "csp_Gz360",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
+      "key": "瓜子影视",
+      "name": "瓜子｜影视",
+      "type": 3,
+      "jar": "./spider.jar",
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
     {
       "key":"文采",
       "name":"文采 | 影视",
