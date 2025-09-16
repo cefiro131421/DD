@@ -1,5 +1,5 @@
 {
-  "spider": "./gp.jar",
+  "spider": "./zhenxin.jar",
   "sites": [
     {
       "key": "豆瓣",
@@ -10,6 +10,17 @@
       "changeable": 1,
       "indexs": 1,
       "ext": "./lib/douban.json"
+    },
+    {
+      "key": "文采",
+      "name": "💮文采┃秒播",
+      "type": 3,
+      "api": "csp_JpysGuard",
+      "timeout": 15,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
       "key": "https://github.com/fish2018/PG",
