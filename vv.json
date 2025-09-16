@@ -28,9 +28,9 @@
     },
     {
       "key": "Guazi",
-      "name": "瓜子|App",
+      "name": "瓜子 | App",
       "type": 3,
-      "jar": "./spider.jar",
+      "jar": "./pg.jar",
       "api": "csp_Guazi",
       "quickSearch": 1,
       "changeable": 1,
