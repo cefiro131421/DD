@@ -8,7 +8,7 @@
       "api": "csp_Douban",
       "searchable": 0,
       "changeable": 1,
-      "indexs": 1,http://172.19.0.1:10078/p/4/null/2097152/aHR0cDovLzEyNy4wLjAuMTo5OTc4L3Byb3h5P2RvPTE4OSZ0eXBlPWR3bnomZGlyX2lkPTUyMzkzMTE0MDYyMTg4NjU2MSZmaWxlX2lkPTUyMzkzMTE0MDYyMTg4NjU2MSZzaGFyZV9pZD0xMjM3NjExMTMxMzIwMSZzaGFyZV9wd2Q9JmZpbGVfc2l6ZT0yMTkxOTYzNzUxNiZjb250ZW50X2hhc2g9JmZpbGVfbmFtZT1ta3Y/mkv
+      "indexs": 1,
       "ext": "./lib/douban.json"
     },
     {
