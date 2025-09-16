@@ -30,11 +30,12 @@
       "key": "Guazi",
       "name": "瓜子 | App",
       "type": 3,
-      "jar": "/spider.jar",
-      "api": "csp_Gz360",
-      "searchable": 1,
+      "api": "csp_Guazi",
       "quickSearch": 1,
-      "filterable": 1
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 60,
+      "ext": ""
     },
     {
       "key":"文采",
