@@ -63,6 +63,7 @@
       "key": "文采",
       "name": "💮文采┃秒播",
       "type": 3,
+      "jar": "./zhenxin.jar",
       "api": "csp_JpysGuard",
       "timeout": 15,
       "playerType": 2,
