@@ -19,8 +19,11 @@
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
-        },
+"filter": "./json/douban.json"
 
+      }
+
+    },
     {  
       "key": "热播影视",
       "name": "热播｜APP",
