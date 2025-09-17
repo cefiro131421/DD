@@ -19,7 +19,7 @@
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
-"filter": "./json/douban.json",
+"filter": "./json/douban.json"
 
       
 
