@@ -14,15 +14,12 @@
   ],
   "sites": [
     {
-            "key": "豆瓣",
-            "name": "豆瓣｜首页",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 0
-"filter": "./json/douban.json"
-
-      
-
+      "key": "豆瓣",
+      "name": "豆瓣｜首页",
+      "type": 3,
+      "jar": "./spider.jar",
+      "api": "csp_Douban",
+      "searchable": 0
     },
     {  
       "key": "热播影视",
