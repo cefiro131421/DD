@@ -18,8 +18,8 @@
             "name": "豆瓣｜首页",
             "type": 3,
             "api": "csp_Douban",
-            "searchable": 0,
-"filter": "./json/douban.json"
+            "searchable": 0
+"filter": "./json/douban.json",
 
       }
 
