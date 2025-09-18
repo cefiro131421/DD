@@ -25,6 +25,17 @@
       }
     },
     {
+      "key": "小苹果",
+      "name": "小苹果",
+      "type": 4,
+      "api": "http://zhangqun1818.serv00.net/pingguo.php",
+      "style": {
+      "type": "rect",
+      "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
       "key": "Guazi",
       "name": "瓜子 | App",
       "type": 3,
