@@ -4,13 +4,21 @@
   "logo":"https://gh.jsdelivr.fyi/https://github.com/cefiro131421/DD/blob/master/1/5e4b4db55ca7bbf89fc662b70449e927_20250919_001010.gif",
   "lives": [
     {
-      "name": "冰茶",
+      "name": "iTV",
       "type": 0,
-      "url": "https://glot.io/snippets/hb6mg3lzpt/raw/lnlt.txt",
+      "url": "https://gist.githubusercontent.com/cefiro131421/99b9731cb311416df4e9ac8c302a84b8/raw/4faf1fd079d2090f827ea3265a804816bd0db24b/gistfile1.txt",
       "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }
+    },
+    {
+				"name": "肥羊虎牙一起看",
+				"type": 0,
+				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/huyayqk.m3u",
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+			},
   ],
   "sites": [
     {
