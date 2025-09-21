@@ -5,7 +5,7 @@ https://188766.xyz/itv
 #Gather.电视直播
 https://tv.iill.top/m3u/Gather
 #虎牙一起看
-https://tv.iill.top/m3u/Live
+https://cdn.jsdelivr.net/gh/Kimentanm/aptv@refs/heads/master/m3u/yqk.m3u
 #feiyang.bililive
 http://127.0.0.1:35457/bililive.m3u
 #feiyang.huyayqk
@@ -14,6 +14,7 @@ http://127.0.0.1:35457/huyayqk.m3u
 http://127.0.0.1:35457/douyuyqk.m3u
 #feiyang.yylunbo
 http://127.0.0.1:35457/yylunbo.m3u
+
 
 
 
