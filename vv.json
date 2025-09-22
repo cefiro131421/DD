@@ -243,33 +243,6 @@
       }
     },
     {
-       "key": "盘搜",
-       "name": "盘搜 | 综合",
-       "type": 3,
-       "api": "csp_TgYunDouBanPan",
-       "searchable": 1,
-       "changeable": 0,
-       "ext": {
-    "siteUrl": "https://zxps.banye.tech:7777",
-            "count": 5,
-            "channelUsername": "",
-    "commonConfig": "./json/peizhi.json"
-      }
-    },
-    {
-      "key": "玩偶 | 二小",
-      "name": "玩偶 | 二小",
-      "type": 3,
-      "api": "csp_kongbai",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "commonConfig": "./json/peizhi.json",
-        "siteUrl": "https://erxiaofn.click/",
-        "filter": "./json/wogg.json"
-      }
-    },
-    {
       "key": "玩偶 | 多多",
       "name": "玩偶 | 多多",
       "type": 3,
