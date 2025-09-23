@@ -16,8 +16,8 @@
 	  "type": 0,
 	  "url": "http://127.0.0.1:35456/huyayqk.m3u",
 	  "ua": "okhttp/3.15",
-	  "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-	  "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+	  "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+	  "logo": "http://diyp5.112114.xyz/{name).png"
     }
   ],
   "sites": [
