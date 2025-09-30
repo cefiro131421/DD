@@ -100,6 +100,22 @@
       "url": "http://v.lkuys.cn"
       }
     },
+	{
+      "key": "天翼影视",
+      "name": "天翼｜影视",
+      "type": 1,
+      "api": "http://7.qqqtv.top/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "推荐",
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫"
+      ]
+    },
     {
       "key": "金牌影视",
       "name": "金牌｜影视",
@@ -237,6 +253,26 @@
         "siteUrl": "http://tv.yydsys.top/",
         "filter": "./json/wogg.json"
       }
+    },
+	{
+      "key": "星芽短剧",
+      "name": "星芽｜短剧",
+      "type": 3,
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/movie/py/XYDJ.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "甜圈短剧",
+      "name": "甜圈｜短剧",
+      "type": 3,
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/movie/py/TQDJ.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "360资源",
