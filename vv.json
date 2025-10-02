@@ -4,6 +4,14 @@
   "logo":"https://gh.jsdelivr.fyi/https://github.com/cefiro131421/DD/blob/master/1/5e4b4db55ca7bbf89fc662b70449e927_20250919_001010.gif",
   "lives": [
     {
+      "name": "sdzb",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/a2256569/tv/refs/heads/main/sdzb.txt",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+	{
       "name": "iTV",
       "type": 0,
       "url": "https://gh.jsdelivr.fyi/https://gist.githubusercontent.com/cefiro131421/99b9731cb311416df4e9ac8c302a84b8/raw",
