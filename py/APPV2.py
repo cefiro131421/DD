@@ -92,6 +92,6 @@ class Spider(Spider):
         return  {'jx':1,'playUrl':'','parse': 1, 'url': id, 'header': self.headers}
 
     def localProxy(self, param):
-        pass
+        pass 
 
 
