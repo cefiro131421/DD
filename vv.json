@@ -61,6 +61,40 @@
       "url": "http://v.rbotv.cn"
       }
     },
+	{
+      "key": "小猪",
+      "name": "小猪丨APP",
+      "type": 3,
+      "quickSearch": 1,
+	  "jar": "./spider.jar",
+      "api": "csp_AppQi",
+      "ext": {
+        "url": "",
+        "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt",
+        "dataKey": "seb5tq9mykp2w9ry",
+        "dataIv": "seb5tq9mykp2w9ry",
+        "deviceId": "",
+        "version": "",
+        "ua": "okhttp/3.10.0"
+      }
+    },
+	{
+      "key": "豆丁",
+      "name": "豆丁丨APP",
+      "type": 3,
+      "quickSearch": 1,
+	  "jar": "./spider.jar",
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://45.66.157.77:9427",
+        "site": "",
+        "dataKey": "Xasdasd!123123dd",
+        "dataIv": "Xasdasd!123123dd",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },
     {
       "key": "Guazi",
       "name": "瓜子 | App",
