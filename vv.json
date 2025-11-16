@@ -360,18 +360,6 @@
       "ext": ""
     },
     {
-      "key": "drpyS_聚合直播[官]",
-      "name": "🚀聚合┃直播",
-      "type": 4,
-      "api": "https://zhxy.eu.org/api/聚合直播[官]",
-      "searchable": 0,
-      "filterable": 0,
-      "quickSearch": 0,
-      "title": "聚合直播[官]",
-      "lang": "ds",
-      "ext": ""
-    },
-    {
       "key": "ConfigCenter",
       "name": "配置 | 中心",
       "type": 3,
@@ -424,17 +412,6 @@
       "changeable": 1
     },
 	{
-	  "key":"锦鲤短剧",
-	  "name":"锦鲤┃短剧",
-	  "jar":"https://pan.qingyuji.cn/f/MJRYiL/o.png;md5;5ba5cb4a1820aa13ffa0ed0c1869788d",
-	  "type":3,"api":"csp_JinliGuard",
-	  "searchable":1,
-	  "quickSearch":1,
-	  "changeable":0,
-	  "filterable":1,
-	  "timeout":10
-	},
-	{
       "key": "drpyS_六月听书[听]",
       "name": "🎧️六月┃听书",
       "type": 4,
@@ -444,44 +421,6 @@
       "quickSearch": 0,
       "title": "六月听书[听]",
       "类型": "听书",
-      "lang": "ds",
-      "ext": ""
-    },
-    {
-      "key": "drpyS_喜马拉雅[听]",
-      "name": "🎧️喜马┃听书",
-      "type": 4,
-      "api": "https://zhxy.eu.org/api/喜马拉雅[听]",
-      "searchable": 2,
-      "filterable": 0,
-      "quickSearch": 0,
-      "title": "喜马拉雅[听]",
-      "类型": "听书",
-      "lang": "ds",
-      "ext": ""
-    },
-    {
-      "key": "drpyS_酷我听书[听]",
-      "name": "🎧️酷我┃听书",
-      "type": 4,
-      "api": "https://zhxy.eu.org/api/酷我听书[听]",
-      "searchable": 2,
-      "filterable": 1,
-      "quickSearch": 0,
-      "title": "酷我听书[听]",
-      "类型": "听书",
-      "lang": "ds",
-      "ext": ""
-    },
-	{
-      "key": "drpyS_博看听书[听]",
-      "name": "📻博看┃知识",
-      "type": 4,
-      "api": "https://zhxy.eu.org/api/博看听书[听]",
-      "searchable": 2,
-      "filterable": 0,
-      "quickSearch": 0,
-      "title": "博看听书[听]",
       "lang": "ds",
       "ext": ""
     },
