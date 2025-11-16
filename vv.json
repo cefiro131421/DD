@@ -325,6 +325,18 @@
       }
     },
 	{
+      "key": "drpyS_聚合短剧[短]",
+      "name": "📱聚合┃短剧",
+      "type": 4,
+      "api": "https://zhxy.eu.org/api/聚合短剧[短]",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "聚合短剧[短]",
+      "lang": "ds",
+      "ext": ""
+    },
+	{
       "key": "星芽短剧",
       "name": "星芽｜短剧",
       "type": 3,
@@ -364,6 +376,57 @@
 	  "filterable":1,
 	  "timeout":10
 	},
+	{
+      "key": "drpyS_六月听书[听]",
+      "name": "🎧️六月┃听书",
+      "type": 4,
+      "api": "https://zhxy.eu.org/api/六月听书[听]",
+      "searchable": 2,
+      "filterable": 0,
+      "quickSearch": 0,
+      "title": "六月听书[听]",
+      "类型": "听书",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
+      "key": "drpyS_喜马拉雅[听]",
+      "name": "🎧️喜马┃听书",
+      "type": 4,
+      "api": "https://zhxy.eu.org/api/喜马拉雅[听]",
+      "searchable": 2,
+      "filterable": 0,
+      "quickSearch": 0,
+      "title": "喜马拉雅[听]",
+      "类型": "听书",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
+      "key": "drpyS_酷我听书[听]",
+      "name": "🎧️酷我┃听书",
+      "type": 4,
+      "api": "https://zhxy.eu.org/api/酷我听书[听]",
+      "searchable": 2,
+      "filterable": 1,
+      "quickSearch": 0,
+      "title": "酷我听书[听]",
+      "类型": "听书",
+      "lang": "ds",
+      "ext": ""
+    },
+	{
+      "key": "drpyS_博看听书[听]",
+      "name": "📻博看┃知识",
+      "type": 4,
+      "api": "https://zhxy.eu.org/api/博看听书[听]",
+      "searchable": 2,
+      "filterable": 0,
+      "quickSearch": 0,
+      "title": "博看听书[听]",
+      "lang": "ds",
+      "ext": ""
+    },
 	{
       "key": "Wexlaobaitingshu",
       "name": "白兔┃听书",
