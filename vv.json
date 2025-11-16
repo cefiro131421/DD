@@ -347,7 +347,7 @@
 	{
       "key": "Wexduanjuhema",
       "name": "🍉短剧┃仙品🍉",
-	  "jar": "wex.jar",
+	  "jar": "./wex.jar",
       "type": 3,
       "api": "csp_WexduanjuhemaGuard",
       "searchable": 1,
