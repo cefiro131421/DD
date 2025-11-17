@@ -70,6 +70,16 @@
       "ext": "http://v.rbotv.cn"
     },
 	{
+      "key": "drpyS_仓鼠_AppGet",
+      "name": "仓鼠┃APP",
+      "type": 4,
+      "api": "https://zhxy.eu.org/api/AppGet[模板]",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 0,
+      "ext": "H4sIAAAAAAAAAwEhAN7/Li4vcHovQXBw5qih5p2/6YWN572uLmpzb24k5LuT6bygk64kGSEAAAA="
+    },
+	{
       "key": "小猪",
       "name": "小猪丨APP",
       "type": 3,
@@ -261,22 +271,6 @@
       "deviceId": "",
       "version": "",
       "ua": ""
-      }
-    },
-    {
-      "key": "仓鼠",
-      "name": "仓鼠｜APP",
-      "type": 3,
-      "quickSearch": 1,
-      "jar": "./spider.jar",
-      "api": "csp_AppQi",
-      "ext": {
-      "url": "",
-      "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
-      "dataKey": "da61247f5b662597",
-      "dataIv": "da61247f5b662597",
-      "deviceId": "",
-      "version": "120"
       }
     },
     {
