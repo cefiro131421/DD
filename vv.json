@@ -62,14 +62,6 @@
       }
     },
 	{
-      "key": "潮流",
-      "name": "潮流┃APP",
-      "type": 3,
-      "jar": "https://img2.gelonghui.com/library/2eb93-9af93e33-5fb2-4ddc-9568-63c1b4a10322.png;md5;2eb9327119d339cd10302d8df7872d46",
-      "api": "csp_AppRJ",
-      "ext": "http://v.rbotv.cn"
-    },
-	{
       "key": "drpyS_仓鼠_AppGet",
       "name": "🔶仓鼠┃APP",
       "type": 4,
@@ -451,19 +443,6 @@
       "searchable": 1,
       "changeable": 1
     },
-	{
-            "key": "百度盘搜",
-            "name": "百度｜盘搜",
-            "jar": "https://www.lequxiang.com.cn/down.php/fea703aa18754f6c55dd20906be14867.txt;md5;fea703aa18754f6c55dd20906be14867",
-            "type": 3,
-            "api": "csp_PanSou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "cloudDrives": "baidu"
-            }
-        },
     {
       "key": "360资源",
       "name": "360 | 采集",
