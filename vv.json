@@ -80,6 +80,16 @@
       "ext": "H4sIAAAAAAAAAwEhAN7/Li4vcHovQXBw5qih5p2/6YWN572uLmpzb24k5LuT6bygk64kGSEAAAA="
     },
 	{
+      "key": "drpyS_秒看_AppGet",
+      "name": "🔶秒看┃APP",
+      "type": 4,
+      "api": "https://zhxy.eu.org/api/AppGet[模板]",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 0,
+      "ext": "H4sIAAAAAAAAAwEhAN7/Li4vcHovQXBw5qih5p2/6YWN572uLmpzb24k56eS55yLMzG6sSEAAAA="
+    },
+	{
       "key": "小猪",
       "name": "小猪丨APP",
       "type": 3,
@@ -247,16 +257,6 @@
       "api": "csp_Qiyou"
     },
     {
-      "key": "苹果影视",
-      "name": "苹果｜影视",
-      "type": 3,
-      "jar": "./spider.jar",
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "布雷",
       "name": "布雷丨APP",
       "type": 3,
@@ -378,23 +378,27 @@
     },
 	{
       "key": "星芽短剧",
-      "name": "星芽｜短剧",
+      "name": "💖星芽┃短剧",
+      "jar": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/ncztWerQ.png;md5;5f9b72eb94840e0df7849f351f25b06a",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/movie/py/XYDJ.py",
+      "api": "csp_AppXYGuard",
       "searchable": 1,
-      "changeable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "changeable": 0,
+      "filterable": 1,
+      "timeout": 10
     },
     {
       "key": "甜圈短剧",
-      "name": "甜圈｜短剧",
+      "name": "🌸甜圈┃短剧",
+      "jar": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/ncztWerQ.png;md5;5f9b72eb94840e0df7849f351f25b06a",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/movie/py/TQDJ.py",
+      "api": "csp_TianQuanGuard",
       "searchable": 1,
-      "changeable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "changeable": 0,
+      "filterable": 1,
+      "timeout": 10
     },
 	{
       "key": "Wexduanju001",
@@ -404,6 +408,17 @@
       "api": "csp_Wexduanju001Guard",
       "searchable": 1,
       "changeable": 1
+    },
+	{
+      "key": "世界听书",
+      "name": "🎸世界┃听书",
+      "jar": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/ncztWerQ.png;md5;5f9b72eb94840e0df7849f351f25b06a",
+      "type": 3,
+      "api": "csp_BookTingGuard",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "timeout": 10
     },
 	{
       "key": "drpyS_六月听书[听]",
