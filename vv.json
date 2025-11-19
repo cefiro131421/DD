@@ -451,6 +451,19 @@
       "searchable": 1,
       "changeable": 1
     },
+	{
+            "key": "百度盘搜",
+            "name": "百度｜盘搜",
+            "jar": "https://www.lequxiang.com.cn/down.php/fea703aa18754f6c55dd20906be14867.txt;md5;fea703aa18754f6c55dd20906be14867",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cloudDrives": "baidu"
+            }
+        },
     {
       "key": "360资源",
       "name": "360 | 采集",
