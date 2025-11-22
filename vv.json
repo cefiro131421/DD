@@ -145,16 +145,14 @@
       "ext": ""
     },
     {
-      "key": "小苹果",
-      "name": "🍎苹果┃直连",
+      "key": "苹果影视",
+      "name": "苹果｜影视",
+	  "jar": "./spider.jar",
       "type": 3,
-	  "jar": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/ncztWerQ.png;md5;5f9b72eb94840e0df7849f351f25b06a",
-      "api": "csp_XpgGuard",
+      "api": "csp_LiteApple",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 10
+      "filterable": 1
     },
     {
       "key":"文采",
