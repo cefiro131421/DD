@@ -62,26 +62,6 @@
       }
     },
 	{
-      "key": "drpyS_仓鼠_AppGet",
-      "name": "🔶仓鼠┃APP",
-      "type": 4,
-      "api": "https://zhxy.eu.org/api/AppGet[模板]",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 0,
-      "ext": "H4sIAAAAAAAAAwEhAN7/Li4vcHovQXBw5qih5p2/6YWN572uLmpzb24k5LuT6bygk64kGSEAAAA="
-    },
-	{
-      "key": "drpyS_秒看_AppGet",
-      "name": "🔶秒看┃APP",
-      "type": 4,
-      "api": "https://zhxy.eu.org/api/AppGet[模板]",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 0,
-      "ext": "H4sIAAAAAAAAAwEhAN7/Li4vcHovQXBw5qih5p2/6YWN572uLmpzb24k56eS55yLMzG6sSEAAAA="
-    },
-	{
       "key": "小猪",
       "name": "小猪丨APP",
       "type": 3,
@@ -215,15 +195,6 @@
       "type": "list"
       }
     },
-	{
-      "key": "Wexhanxiaoquan",
-      "name": "💥韩剧┃秒播💥",
-      "type": 3,
-      "api": "csp_WexhanxiaoquanGuard",
-	  "jar": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/1860D0B_773_wex_20251110002159531newMediaImage.png;md5;1fcca766ea99e0b6b76d9932befdf956",
-      "searchable": 1,
-      "changeable": 1
-    },
     {
       "key": "奇优影视",
       "name": "奇优｜影视",
@@ -283,51 +254,33 @@
       }
     },
 	{
-      "key": "drpyS_YDYD_AppV2",
-      "name": "🔶YDYD┃APP",
-      "type": 4,
-      "api": "https://zhxy.eu.org/api/AppV2[模板]",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 0,
-      "ext": "H4sIAAAAAAAAA9PT0y+o0ncsKHi2YuGzuftftvY+37tOL6s4P08l0iXSBQBPXcWHHwAAAA=="
-    },
-	{
-      "key": "drpyS_至尊_AppV2",
-      "name": "🔶至尊┃APP",
-      "type": 4,
-      "api": "https://zhxy.eu.org/api/AppV2[模板]",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 0,
-      "ext": "H4sIAAAAAAAAA9PT0y+o0ncsKHi2YuGzuftftvY+37tOL6s4P0/lRfvmpxu6AO/rEdQhAAAA"
-    },
-	{
-      "key": "drpyS_腾讯[官]",
-      "name": "🏠腾讯┃官源",
-      "type": 4,
-      "api": "https://zhxy.eu.org/api/腾讯[官]",
-      "searchable": 2,
-      "filterable": 1,
-      "quickSearch": 0,
-      "title": "腾讯[官]",
-      "类型": "影视",
-      "lang": "ds",
-      "ext": ""
-    },
-    {
-      "key": "drpyS_芒果[官]",
-      "name": "🏠芒果┃官源",
-      "type": 4,
-      "api": "https://zhxy.eu.org/api/芒果[官]",
-      "searchable": 2,
-      "filterable": 1,
-      "quickSearch": 0,
-      "title": "芒果[官]",
-      "类型": "影视",
-      "lang": "ds",
-      "ext": ""
-    },
+            "key": "腾讯视频",
+            "name": "腾讯｜视频",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/腾讯视频.js"
+        },
+        {
+            "key": "优酷视频",
+            "name": "优酷｜视频",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/优酷视频.js"
+        },
+        {
+            "key": "芒果视频",
+            "name": "芒果｜视频",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/芒果视频.js"
+        },
+        {
+            "key": "爱奇艺",
+            "name": "爱奇异｜视频",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/爱奇艺.js"
+		}
     {
       "key": "ConfigCenter",
       "name": "配置 | 中心",
@@ -338,18 +291,6 @@
       "ext": {
         "commonConfig": "./json/peizhi.json"
       }
-    },
-	{
-      "key": "drpyS_聚合短剧[短]",
-      "name": "📱聚合┃短剧",
-      "type": 4,
-      "api": "https://zhxy.eu.org/api/聚合短剧[短]",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 1,
-      "title": "聚合短剧[短]",
-      "lang": "ds",
-      "ext": ""
     },
 	{
       "key": "星芽短剧",
@@ -394,19 +335,6 @@
       "quickSearch": 0,
       "changeable": 0,
       "timeout": 10
-    },
-	{
-      "key": "drpyS_六月听书[听]",
-      "name": "🎧️六月┃听书",
-      "type": 4,
-      "api": "https://zhxy.eu.org/api/六月听书[听]",
-      "searchable": 2,
-      "filterable": 0,
-      "quickSearch": 0,
-      "title": "六月听书[听]",
-      "类型": "听书",
-      "lang": "ds",
-      "ext": ""
     },
 	{
       "key": "Wexlaobaitingshu",
