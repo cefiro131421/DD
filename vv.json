@@ -280,7 +280,7 @@
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/爱奇艺.js"
-		}
+		},
     {
       "key": "ConfigCenter",
       "name": "配置 | 中心",
