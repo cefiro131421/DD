@@ -467,8 +467,8 @@
   ],
   "parses": [
     {
-      "name": "秒看4K",
-      "url": "https://zhxy.eu.org/parse/秒看4K?url=",
+      "name": "154",
+      "url": "http://154.44.26.80:88?id=qq&url=",
       "type": 1,
       "ext": {
         "flag": [
@@ -488,8 +488,8 @@
       }
     },
     {
-      "name": "绿豆4K",
-      "url": "https://zhxy.eu.org/parse/绿豆4K?url=",
+      "name": "125",
+      "url": "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url=",
       "type": 1,
       "ext": {
         "flag": [
@@ -520,8 +520,8 @@
       }
     },
     {
-      "name": "蓝莓4K",
-      "url": "https://zhxy.eu.org/parse/蓝莓4K?url=",
+      "name": "789",
+      "url": "https://jx.789jiexi.com/?url=",
       "type": 1,
       "ext": {
         "flag": [
