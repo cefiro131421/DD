@@ -61,6 +61,49 @@
       "url": "http://v.rbotv.cn"
       }
     },
+    {
+      "key": "苹果影视",
+      "name": "苹果｜影视",
+	  "jar": "./spider.jar",
+      "type": 3,
+      "api": "csp_LiteApple",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "浪酷影视",
+      "name": "浪酷｜APP",
+      "type": 3,
+      "jar": "./spider.jar",
+      "api": "csp_AppRJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+      "url": "http://v.lkuys.cn"
+      }
+    },
+    {
+      "key": "Guazi",
+      "name": "瓜子 | App",
+      "type": 3,
+      "jar": "./spider.jar",
+      "api": "csp_Gz360",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 60,
+      "ext": ""
+    },
+    {
+      "key": "金牌影视",
+      "name": "金牌｜影视",
+      "type": 3,
+      "jar": "./spider.jar",
+      "api": "csp_Jpys",
+      "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+    },
 	{
       "key": "小猪",
       "name": "小猪丨APP",
@@ -113,28 +156,6 @@
       }
     },
     {
-      "key": "Guazi",
-      "name": "瓜子 | App",
-      "type": 3,
-      "jar": "./spider.jar",
-      "api": "csp_Gz360",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 60,
-      "ext": ""
-    },
-    {
-      "key": "苹果影视",
-      "name": "苹果｜影视",
-	  "jar": "./spider.jar",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key":"文采",
       "name":"文采 | 影视",
       "type":3,
@@ -147,17 +168,39 @@
       "changeable":1
     },
     {
-      "key": "浪酷影视",
-      "name": "浪酷｜APP",
+      "name": "🎪伊外",
+      "key": "伊外",
       "type": 3,
-      "jar": "./spider.jar",
-      "api": "csp_AppRJ",
+      "api": "csp_YIysAmns",
+      "jar": "./aw.0890.jar",
       "searchable": 1,
+      "filterable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "ext": {
-      "url": "http://v.lkuys.cn"
-      }
+      "changeable": 1
+    },
+    {
+      "name": "🎭杜北",
+      "key": "杜北",
+      "type": 3,
+      "api": "csp_DubkAmns",
+      "jar": "./aw.0890.jar",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "./json/dubk.json"
+    },
+    {
+      "name": "🌱春天",
+      "key": "春天",
+      "type": 3,
+      "api": "csp_NewGrAmns",
+      "jar": "./aw.0890.jar",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "PnUH1ANGAUTUF9HVgAAHARACF0cRFwdCx0TGwlcBggZSlhIVlFtBFZDAQ0dC1VMR1BUV1ZEVEofVktQCRFQPSQKQjwgBjMpJz4MOyBQCxdmfAs0KhU+Ow48CzMgKjULMlQBKl1VNSlAIEpUS1JHDgJKTkhWUnQZSnscNj0oRkcVIA8EBzIxH0djY08OE15EUAgTQxQGF0VOSFYJEgFGBwJQMQsqEjM/MgIkITYeQwFMQHYaQ1hBByEXBVRLUkcGBBgrARARCFIRVRMMEwwZExBQSUdWCxwJGl1XHmxSHQAXR01WRRYCOAcYRFlWHxJQV1QEDREAKB8DUF9HVlFHW01XBkFSCRdTE1JORgRQSUdWGBULH1JVF2xfEwkXR01WRREKCloNGAkaVhwDWlAcBxcLEAIGXAkPFw1WRFQRQQtAbgIIExERGRUfR11USkZKWBMQAUpCAAEeABYFAlBfR1ZZRUpYExAEVkMBDR0LVUxHUFFXRFhESgk="
     },
 	{
       "key": "天翼影视",
@@ -176,12 +219,30 @@
       ]
     },
     {
-      "key": "金牌影视",
-      "name": "金牌｜影视",
+      "key": "思念",
+      "name": "思念｜APP",
       "type": 3,
       "jar": "./spider.jar",
-      "api": "csp_Jpys",
-      "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+      "api": "csp_AppFox",
+      "ext": {
+      "host": "https://snys2.xyz",
+      "timeout": 15,
+      "ver": 2
+      }
+    },
+    {
+      "key": "开心",
+      "name": "开心｜APP",
+      "type": 3,
+      "jar": "./spider.jar",
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "ext": {
+      "site": "https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/gw.txt",
+      "dataKey": "ca94b06ca3c7d80e",
+      "dataIv": "ca94b06ca3c7d80e",
+      "ua": "okhttp/3.10.0"
+      }
     },
 	{
       "key": "腾讯视频",
@@ -316,6 +377,15 @@
       "filterable": 1,
       "timeout": 10
     },
+    {
+      "api": "./js/百度短剧.py",
+      "filterable": 1,
+      "key": "py_百度短剧",
+      "name": "🧞百度┃短剧",
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
+    },
 	{
       "key": "Wexduanju001",
       "name": "短剧┃神品",
@@ -323,6 +393,50 @@
       "type": 3,
       "api": "csp_Wexduanju001Guard",
       "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "name": "🎦豪堪短剧",
+      "key": "豪堪短剧",
+      "type": 3,
+      "api": "csp_HHkkAmns",
+      "jar": "./aw.0890.jar",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "name": "📺盒马短剧",
+      "key": "盒马短剧",
+      "type": 3,
+      "api": "csp_HemaAmns",
+      "jar": "./aw.0890.jar",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "name": "🎞️拜拜短剧",
+      "key": "拜拜短剧",
+      "type": 3,
+      "api": "csp_BddjAmns",
+      "jar": "./aw.0890.jar",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "name": "🐱喵喵短剧",
+      "key": "喵喵短剧",
+      "type": 3,
+      "api": "csp_QmdjAmns",
+      "jar": "./aw.0890.jar",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
       "changeable": 1
     },
 	{
