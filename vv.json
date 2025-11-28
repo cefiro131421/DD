@@ -468,6 +468,21 @@
       "searchable": 1,
       "changeable": 1
     },
+	{
+      "key": "push_agent",
+      "name": "手机｜推送",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 0,
+      "filterable": 0,
+      "changeable": 0
+	},
+	{
+      "key": "百度推送",
+      "name": "百度┃推送",
+      "type": 4,
+      "api": "https://so.yinpai.xyz/api.php?type=baidu"
+    },
     {
       "key": "360资源",
       "name": "360 | 采集",
