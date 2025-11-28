@@ -398,41 +398,15 @@
             "searchable": 1,
             "type": 3
         },
-        {
-          "key": "Wexduanjuvop",
-          "name": "🍉短剧┃秒播🍉",
-          "type": 3,
-          "jar": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/1860D0B_773_wex_20251110002159531newMediaImage.png;md5;1fcca766ea99e0b6b76d9932befdf956",
-          "api": "csp_WexduanjuvopGuard",
-          "searchable": 1,
-          "changeable": 1
-        },
-	    {
-          "key": "Wexduanjusuipian",
-          "name": "🍉短剧┃速播🍉",
-          "type": 3,
-          "jar": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/1860D0B_773_wex_20251110002159531newMediaImage.png;md5;1fcca766ea99e0b6b76d9932befdf956",
-         "api": "csp_WexduanjusuipianGuard",
-           "searchable": 1,
-           "changeable": 1
-        },
    	    {
            "key": "Wexduanjuvmp",
            "name": "🍉短剧┃瞬播🍉",
            "type": 3,
-           "jar": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/1860D0B_773_wex_20251110002159531newMediaImage.png;md5;1fcca766ea99e0b6b76d9932befdf956",
+           "jar": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/4C1FF0E_773_wex_20251125202938981newMediaImage.png;md5;905b506670b52fb2a680743fb13086fc",
+
            "api": "csp_WexduanjuvmpGuard",
            "searchable": 1,
            "changeable": 1
-        },
-	    {
-           "key": "Wexduanjuhema",
-           "name": "🍉短剧┃仙品🍉",
-           "type": 3,
-           "jar": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/1860D0B_773_wex_20251110002159531newMediaImage.png;md5;1fcca766ea99e0b6b76d9932befdf956",
-           "api": "csp_WexduanjuhemaGuard",
-            "searchable": 1,
-            "changeable": 1
         },
 	    {
             "key": "Wexduanju001",
