@@ -402,7 +402,7 @@
            "key": "Wexduanjuvmp",
            "name": "🍉短剧┃瞬播🍉",
            "type": 3,
-           "jar": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/434B57F_773_wex_20251205021657228newMediaImage.png;md5;c2dd706f2afc0f3e4035b3237ecde3f9",
+           "jar": "https://aisearch.cdn.bcebos.com/fileManager/40aicoLgDtklAyS8-ZZBrA/1765824347239XW9m5i.txt",
            "api": "csp_WexduanjuvmpGuard",
            "searchable": 1,
            "changeable": 1
@@ -410,7 +410,7 @@
 	    {
             "key": "Wexduanju001",
             "name": "短剧┃神品",
-            "jar": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/434B57F_773_wex_20251205021657228newMediaImage.png;md5;c2dd706f2afc0f3e4035b3237ecde3f9",
+            "jar": "https://aisearch.cdn.bcebos.com/fileManager/40aicoLgDtklAyS8-ZZBrA/1765824347239XW9m5i.txt",
             "type": 3,
             "api": "csp_Wexduanju001Guard",
             "searchable": 1,
@@ -463,7 +463,7 @@
 	    {
             "key": "世界听书",
             "name": "🎸世界┃听书",
-            "jar": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/ncztWerQ.png;md5;5f9b72eb94840e0df7849f351f25b06a",
+            "jar": "http://oss4liview.moji.com/thd_file/2025/12/23/4d69a3d7a09d4373b4e29975b3ab6fef.jpg",
             "type": 3,
             "api": "csp_BookTingGuard",
             "searchable": 1,
@@ -474,7 +474,7 @@
 	    {
             "key": "Wexlaobaitingshu",
             "name": "白兔┃听书",
-            "jar": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/434B57F_773_wex_20251205021657228newMediaImage.png;md5;c2dd706f2afc0f3e4035b3237ecde3f9",
+            "jar": "https://aisearch.cdn.bcebos.com/fileManager/40aicoLgDtklAyS8-ZZBrA/1765824347239XW9m5i.txt",
             "type": 3,
             "api": "csp_WexlaobaitingshuGuard",
             "searchable": 1,
