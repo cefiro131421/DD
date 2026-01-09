@@ -59,11 +59,81 @@
       }
     },
     {
-      "key": "金牌影视",
-      "name": "金牌｜影视",
+      "key": "Jpys",
+      "name": "金牌 | 影视",
       "type": 3,
       "api": "csp_Jpys",
-      "ext": "https://hnytxj.com,https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+      "jar": "./jar/zx.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": "https://www.ksnnhbj.com",
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    {
+      "key": "文才",
+      "name": "🌺文才┃弹幕",
+      "type": 3,
+      "api": "csp_JpysGuard",
+      "jar": "./jar/ok.jpg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "timeout": 10
+    },
+    {
+      "key": "糯米",
+      "name": "🍓糯米┃弹幕",
+      "type": 3,
+      "api": "csp_NmysGuard",
+      "jar": "./jar/ok.jpg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "timeout": 10
+    },
+    {
+      "key": "木瓜弹幕版",
+      "name": "🥑木瓜┃弹幕",
+      "type": 3,
+      "api": "csp_AppFoxGuard",
+      "jar": "./jar/ok.jpg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "danmu": true,
+        "siteUrl": "http://www.yezitv.top"
+      },
+      "timeout": 10
+    },
+    {
+      "key": "韩圈",
+      "name": "🦄韩圈┃弹幕",
+      "type": 3,
+      "api": "csp_HanXiaoQuanGuard",
+      "jar": "./jar/ok.jpg",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "timeout": 10
     },
     {
       "key": "苹果影视",
@@ -90,18 +160,6 @@
       "api": "csp_SaoHuo",
       "playerType": 2,
       "ext": "https://shdy5.us"
-    },
-    {
-      "key": "鲸鱼",
-      "name": "鲸鱼｜APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppQi",
-      "ext": {
-        "site": "./lib/1.json",
-        "dataKey": "AAdgrdghjfgswerA",
-        "dataIv": "AAdgrdghjfgswerA"
-      }
     },
     {
       "key": "云云",
@@ -542,6 +600,20 @@
       "name": "天翼｜搜索",
       "type": 3,
       "api": "csp_TianYiSo"
+    },
+    {
+      "key": "瓜子看球",
+      "name": "⚽瓜子┃看球",
+      "type": 3,
+      "api": "csp_GzSportGuard",
+      "jar": "./jar/ok.jpg",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      },
+      "timeout": 10
     },
     {
       "key": "88看球",
