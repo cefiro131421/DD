@@ -667,8 +667,8 @@
     ],
     "parses": [
     {
-      "name": "154",
-      "url": "http://154.44.26.80:88?id=qq&url=",
+      "name": "云解析",
+      "url": "https://jx.yparse.com/index.php?url=",
       "type": 1,
       "ext": {
         "flag": [
