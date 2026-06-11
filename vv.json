@@ -399,6 +399,22 @@
       "name": "丰",
       "type": 1,
       "url": "https://fzl4k.xyz/jx.php?url="
+      "ext": {
+        "flag": [
+          "qiyi",
+          "imgo",
+          "爱奇艺",
+          "奇艺",
+          "qq",
+          "qq 预告及花絮",
+          "腾讯",
+          "youku",
+          "优酷"
+        ]
+      },
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36"
+      }
     },
     {
       "name": "789",
