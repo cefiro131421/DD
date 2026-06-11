@@ -1,5 +1,6 @@
 {
-           "spider": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260610/TSvB/0X0/06101418.png",
+           "spider": "./jar/xs.png",
+	//     "spider": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260610/TSvB/0X0/06101418.png",
             "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
             "logo":"https://gh.jsdelivr.fyi/https://github.com/cefiro131421/DD/blob/master/1/6941612717007.gif (100×100).gif",
   "lives": [
