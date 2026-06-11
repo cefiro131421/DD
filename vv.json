@@ -132,6 +132,31 @@
 				"ua": "okhttp/3.10.0"
             }
         },
+		{
+            "key": "旺旺影视",
+            "name": "🐶旺旺┃影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "http://rihou.cc/xb/旺旺影视.json",
+            "jar": "./jar/xbpq.jar"
+        },
+		{
+            "key": "顾我99",
+            "name": "🔥顾我丨APP",
+            "type": 3,
+            "api": "csp_App99",
+            "ext": {
+                "host": "http://117.50.200.113:19987/app/bn",
+                "LoginPath": "/app/log",
+                "appkey": "040f9b1bc5e942569b5c3e63943306ab",
+                "versionName": "4.3.1",
+                "name": "顾我追剧",
+                "package": "com.guwozhuijux.app",
+                "buildNumber": "2001",
+                "buildSignature": "5AD4436C4730FFE26910C86278B80F3E661C317FFC3616F702D20A729262624A"
+            },
+      "jar":"http://47.120.41.246:8025/vip/jar/xiaomi.php"
+        },
         {
             "key": "驿站",
             "name": "驿站丨APP",
