@@ -214,6 +214,34 @@
             "playerType": 2,
             "ext": "https://shdy5.us"
         },
+		{
+      "key": "腾腾",
+      "name": "腾腾┃JX",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/腾腾.js"
+    },
+    {
+      "key": "奇奇",
+      "name": "奇奇┃JX",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/奇奇.js"
+    },
+    {
+      "key": "果果",
+      "name": "果果┃JX",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/果果.js"
+    },
+    {
+      "key": "酷酷",
+      "name": "酷酷┃JX",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/酷酷.js"
+    },
         {
             "name": "🎦豪堪短剧",
             "key": "豪堪短剧",
@@ -372,10 +400,60 @@
     ],
     "parses": [
 	{
-      "name": "自动解析",
-      "type": 2,
-      "url": "Parallel"
+      "name": "测试解析",
+      "type": 1,
+      "url": "http://127.0.0.1:9978/proxy?do=voxjx&url="
     },
+    {
+      "name": "手动解析①",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+    {
+      "name": "手动解析②",
+      "type": 0,
+      "url": "https://jx.nnxv.cn/tv.php?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+    {
+      "name": "手动解析③",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+    {
+      "name": "手动解析④",
+      "type": 0,
+      "url": "https://www.ckplayer.vip/jiexi/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+    {
+      "name": "手动解析⑤",
+      "type": 0,
+      "url": "https://okjx.cc/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+	},
 	{
       "name": "丰",
       "type": 1,
