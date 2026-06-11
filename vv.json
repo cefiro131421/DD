@@ -128,7 +128,7 @@
                 "site": "https://xinlanyinghb.oss-cn-wuhan-lr.aliyuncs.com/xly.txt",
                 "dataKey": "ca94b06ca359d80e",
                 "dataIv": "ca94b06ca359d80e",
-                "version": "120"
+                "version": "120",
 				"ua": "okhttp/3.10.0"
             }
         },
