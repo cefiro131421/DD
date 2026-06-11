@@ -138,7 +138,7 @@
             "type": 3,
             "api": "csp_XBPQ",
             "ext": "http://rihou.cc/xb/旺旺影视.json",
-            "jar": "./jar/xbpq.jar"
+            "jar": "http://rihou.cc/jar/vox.jar"
         },
 		{
             "key": "顾我99",
