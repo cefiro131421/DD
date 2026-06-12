@@ -331,6 +331,17 @@
             "type": 3,
             "api": "csp_MiSou"
         },
+		{
+            "key": "贝乐虎",
+            "name": "贝乐虎｜少儿",
+            "type": 3,
+            "api": "./py/贝乐虎.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
         {
             "key": "戏曲多多",
             "name": "戏曲｜多多",
