@@ -24,7 +24,7 @@ jobs:
         run: pip install requests
         
       - name: 运行更新脚本
-        run: python update_jar.py
+        run: python aw_jar.py
         
       - name: 提交并推送更改
         run: |
