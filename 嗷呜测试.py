@@ -4,7 +4,7 @@
 自动更新嗷呜配置（仅更新相同 key 的站点 + 本地化 spider）
 - 获取最新嗷呜配置
 - 只更新现有配置中 key 相同的站点
-- 下载 spider 图片并保存为 aw1.png，更新配置为本地路径
+- 从嗷呜原始数据中提取 spider 图片并下载为 aw1.png
 - 不新增、不删除任何站点
 """
 
@@ -20,7 +20,7 @@ DECRYPT_API = "https://bjq.catvod.site/api/decrypt"
 TARGET_URL = "http://www.英格里希嗷呜.top/tv"
 JAR_DIR = Path("jar")
 CONFIG_FILE = Path("aowu测试.json")
-LOCAL_SPIDER_PATH = "./jar/aw1.png"  # ★★★ 改为 aw1.png ★★★
+LOCAL_SPIDER_PATH = "./jar/aw1.png"
 # ==============================
 
 def fetch_decrypted_data():
@@ -117,12 +117,14 @@ def merge_by_key(existing, new):
     
     return existing
 
-def extract_spider_url(config):
-    """提取 spider 字段中的有效 URL"""
-    spider_raw = config.get("spider", "")
+def extract_spider_url_from_new(new_config):
+    """★★★ 从嗷呜原始数据中提取 spider 图片的远程 URL ★★★"""
+    spider_raw = new_config.get("spider", "")
     if not spider_raw:
+        print("⚠️ 嗷呜原始数据中未找到 spider 字段")
         return None
     
+    # 去除 ;md5;xxx 后缀
     if ";" in spider_raw:
         clean_url = spider_raw.split(";")[0]
     else:
@@ -130,25 +132,22 @@ def extract_spider_url(config):
     
     clean_url = clean_url.strip()
     
+    # 验证是否为有效 HTTP/HTTPS URL
     if clean_url.startswith("http://") or clean_url.startswith("https://"):
+        print(f"🔗 从嗷呜原始数据提取到远程 spider: {clean_url}")
         return clean_url
     else:
+        print(f"⚠️ spider 不是有效网络链接: {clean_url}")
         return None
 
-def download_and_localize_spider(config):
-    """
-    下载 spider 图片并保存为 aw1.png，替换配置中的 spider 路径
-    """
-    remote_url = extract_spider_url(config)
+def download_and_save_spider(remote_url):
+    """下载 spider 图片并保存为 aw1.png"""
     if not remote_url:
-        print("ℹ️ 未检测到有效的远程 spider 链接，跳过下载")
         return False
-    
-    print(f"🔗 检测到远程 spider: {remote_url}")
     
     try:
         JAR_DIR.mkdir(exist_ok=True)
-        save_path = JAR_DIR / "aw1.png"  # ★★★ 保存为 aw1.png ★★★
+        save_path = JAR_DIR / "aw1.png"
         print(f"⬇️ 正在下载 spider 图片...")
         response = requests.get(remote_url, timeout=30)
         if response.status_code != 200:
@@ -157,18 +156,26 @@ def download_and_localize_spider(config):
         with open(save_path, "wb") as f:
             f.write(response.content)
         print(f"✅ spider 图片已保存: {save_path} ({len(response.content)} 字节)")
-        
-        # 将配置中的 spider 替换为本地路径
+        return True
+    except Exception as e:
+        print(f"⚠️ 下载失败: {e}")
+        return False
+
+def update_spider_in_config(config):
+    """将配置中的 spider 更新为本地路径（不依赖远程提取）"""
+    # 只要本地图片存在或下载成功，就更新为本地路径
+    local_path = JAR_DIR / "aw1.png"
+    if local_path.exists():
         config["spider"] = LOCAL_SPIDER_PATH
         print(f"🔄 spider 字段已更新为本地路径: {LOCAL_SPIDER_PATH}")
         return True
-    except Exception as e:
-        print(f"⚠️ 下载或替换失败: {e}")
+    else:
+        print("⚠️ 本地图片不存在，无法更新 spider 字段")
         return False
 
 def main():
     print("=" * 50)
-    print("🔄 更新嗷呜配置（更新相同key + 本地化spider -> aw1.png）")
+    print("🔄 更新嗷呜配置（更新相同key + 本地化spider）")
     print("=" * 50)
     
     # 1. 获取最新嗷呜配置
@@ -176,26 +183,36 @@ def main():
     if not new_config:
         sys.exit(1)
     
-    # 2. 加载现有配置
+    # 2. ★★★ 从嗷呜原始数据中提取 spider 远程 URL ★★★
+    print("\n📋 处理 spider 字段...")
+    remote_spider_url = extract_spider_url_from_new(new_config)
+    
+    spider_downloaded = False
+    if remote_spider_url:
+        spider_downloaded = download_and_save_spider(remote_spider_url)
+    else:
+        print("ℹ️ 未检测到有效的远程 spider 链接")
+    
+    # 3. 加载现有配置
     existing = load_existing_config()
     if existing is None:
         sys.exit(1)
     
-    # 3. 保存原始副本用于比较
+    # 4. 保存原始副本用于比较
     original = deepcopy(existing)
     
-    # 4. 按 key 合并站点
+    # 5. 按 key 合并站点
     print("\n📋 开始对比更新站点...")
     merged = merge_by_key(existing, new_config)
     
-    # 5. 处理 spider 字段（下载 + 本地化）
-    print("\n📋 处理 spider 字段...")
-    spider_updated = download_and_localize_spider(merged)
+    # 6. 如果图片下载成功，更新配置中的 spider 字段为本地路径
+    if spider_downloaded:
+        update_spider_in_config(merged)
     
-    # 6. 检查是否有任何变化
+    # 7. 检查是否有任何变化
     config_changed = json.dumps(original, sort_keys=True) != json.dumps(merged, sort_keys=True)
     
-    if config_changed or spider_updated:
+    if config_changed or spider_downloaded:
         if not save_config(merged):
             sys.exit(1)
         print("✅ 配置已更新并保存")
