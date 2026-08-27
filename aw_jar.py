@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 自动更新嗷呜接口的jar包（spider字段图片）
-API: https://www.qiushui.vip/gj/jiemi/raw/?url=
+API: https://bjq.catvod.site/api/decrypt
 目标仓库: https://github.com/cefiro131421/DD/tree/master/jar
 """
 
