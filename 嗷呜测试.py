@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -5,7 +6,7 @@
 - 获取最新嗷呜配置
 - 只更新现有配置中 key 相同的站点
 - 不新增、不删除任何站点
-- 下载 spider 图片
+- 下载 spider 图片（仅当为有效 URL 时）
 """
 
 import os
@@ -19,7 +20,7 @@ from copy import deepcopy
 DECRYPT_API = "https://bjq.catvod.site/api/decrypt"
 TARGET_URL = "http://www.英格里希嗷呜.top/tv"
 JAR_DIR = Path("jar")
-CONFIG_FILE = Path("aowu测试.json")  # 您的主配置文件
+CONFIG_FILE = Path("aowu测试.json")
 # ==============================
 
 def fetch_decrypted_data():
@@ -82,34 +83,6 @@ def save_config(config):
         print(f"❌ 保存配置失败: {e}")
         return False
 
-def merge_by_key(existing, new):
-    """
-    只更新相同 key 的站点
-    - 遍历现有站点的 key，在嗷呜配置中查找相同 key 的站点
-    - 如果找到：更新该站点（递归合并字段）
-    - 如果没找到：保留原站点不变
-    """
-    if not isinstance(existing, dict) or not isinstance(new, dict):
-        return existing
-    
-    # 处理 sites 列表
-    if "sites" in existing and "sites" in new:
-        existing_sites = existing["sites"]
-        new_sites_dict = {site.get("key"): site for site in new["sites"] if "key" in site}
-        
-        for i, old_site in enumerate(existing_sites):
-            old_key = old_site.get("key")
-            if old_key and old_key in new_sites_dict:
-                # 找到相同 key 的站点，更新
-                print(f"🔄 更新站点: {old_key}")
-                # 递归合并
-                existing_sites[i] = deep_merge(old_site, new_sites_dict[old_key])
-            else:
-                # 没有匹配的 key，保留原站点
-                print(f"⏭️ 保留站点（嗷呜无对应）: {old_key}")
-    
-    return existing
-
 def deep_merge(base, update):
     """递归深度合并两个字典"""
     if not isinstance(update, dict):
@@ -125,21 +98,49 @@ def deep_merge(base, update):
             result[key] = deepcopy(value)
     return result
 
+def merge_by_key(existing, new):
+    """只更新相同 key 的站点（直接修改 existing）"""
+    if not isinstance(existing, dict) or not isinstance(new, dict):
+        return existing
+    
+    if "sites" in existing and "sites" in new:
+        existing_sites = existing["sites"]
+        new_sites_dict = {site.get("key"): site for site in new["sites"] if "key" in site}
+        
+        for i, old_site in enumerate(existing_sites):
+            old_key = old_site.get("key")
+            if old_key and old_key in new_sites_dict:
+                print(f"🔄 更新站点: {old_key}")
+                existing_sites[i] = deep_merge(old_site, new_sites_dict[old_key])
+            else:
+                print(f"⏭️ 保留站点（嗷呜无对应）: {old_key}")
+    
+    return existing
+
 def extract_spider_url(config):
-    """提取 spider 图片链接"""
+    """提取 spider 字段并验证是否为有效 URL"""
     spider_raw = config.get("spider", "")
     if not spider_raw:
         print("⚠️ 配置中未找到 spider 字段")
         return None
+    
     if ";" in spider_raw:
         clean_url = spider_raw.split(";")[0]
     else:
         clean_url = spider_raw
+    
+    clean_url = clean_url.strip()
+    
+    if not (clean_url.startswith("http://") or clean_url.startswith("https://")):
+        print(f"⚠️ spider 不是有效网络链接: {clean_url}")
+        print("💡 跳过下载（可能是本地路径或已内嵌）")
+        return None
+    
     print(f"🔗 spider图片 URL: {clean_url}")
     return clean_url
 
 def download_spider_image(url):
-    """下载 spider 图片"""
+    """下载 spider 图片（仅当 URL 有效时）"""
     if not url:
         return False
     try:
@@ -155,7 +156,7 @@ def download_spider_image(url):
         print(f"✅ spider 图片已保存: {save_path} ({len(response.content)} 字节)")
         return True
     except Exception as e:
-        print(f"❌ 下载错误: {e}")
+        print(f"⚠️ 下载跳过: {e}")
         return False
 
 def main():
@@ -173,21 +174,26 @@ def main():
     if existing is None:
         sys.exit(1)
     
-    # 3. 按 key 合并
+    # ★★★ 深拷贝一份原始配置用于比较 ★★★
+    original = deepcopy(existing)
+    
+    # 3. 按 key 合并（直接修改 existing）
     print("\n📋 开始对比更新...")
     merged = merge_by_key(existing, new_config)
     
-    # 4. 检查是否有变化
-    if json.dumps(existing, sort_keys=True) == json.dumps(merged, sort_keys=True):
+    # 4. ★★★ 比较原始与修改后的配置 ★★★
+    if json.dumps(original, sort_keys=True) == json.dumps(merged, sort_keys=True):
         print("✅ 配置无变化，无需提交")
     else:
         if not save_config(merged):
             sys.exit(1)
     
-    # 5. 下载 spider 图片
+    # 5. 下载 spider 图片（仅当 URL 有效）
     spider_url = extract_spider_url(merged)
     if spider_url:
         download_spider_image(spider_url)
+    else:
+        print("ℹ️ 未检测到有效的 spider 图片链接，跳过下载")
     
     print("\n✨ 更新完成！")
     print(f"📁 配置文件: {CONFIG_FILE}")
