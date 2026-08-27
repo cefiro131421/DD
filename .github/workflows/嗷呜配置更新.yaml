@@ -1,0 +1,43 @@
+name: 更新嗷呜接口配置
+
+on:
+  # 定时触发：每天北京时间 10:00 运行
+  schedule:
+    - cron: '0 2 * * *'
+  # 手动触发：支持在 Actions 页面点击按钮运行
+  workflow_dispatch:
+
+jobs:
+  update-config:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. 检出仓库代码
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      # 2. 设置 Python 环境
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          
+      # 3. 安装依赖
+      - name: 安装依赖
+        run: |
+          pip install requests
+          
+      # 4. 运行更新脚本 ★★★ 修改了脚本名 ★★★
+      - name: 运行更新脚本
+        run: python 嗷呜测试.py
+        
+      # 5. 提交并推送更改
+      - name: 提交并推送更改
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add aowu测试.json jar/
+          git diff --staged --quiet || git commit -m "🔄 自动更新嗷呜配置 [skip ci]"
+          git push
