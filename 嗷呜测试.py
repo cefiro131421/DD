@@ -1,12 +1,11 @@
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-自动更新嗷呜配置（仅更新相同 key 的站点）
+自动更新嗷呜配置（仅更新相同 key 的站点 + 本地化 spider）
 - 获取最新嗷呜配置
 - 只更新现有配置中 key 相同的站点
+- 下载 spider 图片并保存为 aw1.png，更新配置为本地路径
 - 不新增、不删除任何站点
-- 下载 spider 图片（仅当为有效 URL 时）
 """
 
 import os
@@ -21,6 +20,7 @@ DECRYPT_API = "https://bjq.catvod.site/api/decrypt"
 TARGET_URL = "http://www.英格里希嗷呜.top/tv"
 JAR_DIR = Path("jar")
 CONFIG_FILE = Path("aowu测试.json")
+LOCAL_SPIDER_PATH = "./jar/aw1.png"  # ★★★ 改为 aw1.png ★★★
 # ==============================
 
 def fetch_decrypted_data():
@@ -118,10 +118,9 @@ def merge_by_key(existing, new):
     return existing
 
 def extract_spider_url(config):
-    """提取 spider 字段并验证是否为有效 URL"""
+    """提取 spider 字段中的有效 URL"""
     spider_raw = config.get("spider", "")
     if not spider_raw:
-        print("⚠️ 配置中未找到 spider 字段")
         return None
     
     if ";" in spider_raw:
@@ -131,37 +130,45 @@ def extract_spider_url(config):
     
     clean_url = clean_url.strip()
     
-    if not (clean_url.startswith("http://") or clean_url.startswith("https://")):
-        print(f"⚠️ spider 不是有效网络链接: {clean_url}")
-        print("💡 跳过下载（可能是本地路径或已内嵌）")
+    if clean_url.startswith("http://") or clean_url.startswith("https://"):
+        return clean_url
+    else:
         return None
-    
-    print(f"🔗 spider图片 URL: {clean_url}")
-    return clean_url
 
-def download_spider_image(url):
-    """下载 spider 图片（仅当 URL 有效时）"""
-    if not url:
+def download_and_localize_spider(config):
+    """
+    下载 spider 图片并保存为 aw1.png，替换配置中的 spider 路径
+    """
+    remote_url = extract_spider_url(config)
+    if not remote_url:
+        print("ℹ️ 未检测到有效的远程 spider 链接，跳过下载")
         return False
+    
+    print(f"🔗 检测到远程 spider: {remote_url}")
+    
     try:
         JAR_DIR.mkdir(exist_ok=True)
-        save_path = JAR_DIR / "aw.png"
+        save_path = JAR_DIR / "aw1.png"  # ★★★ 保存为 aw1.png ★★★
         print(f"⬇️ 正在下载 spider 图片...")
-        response = requests.get(url, timeout=30)
+        response = requests.get(remote_url, timeout=30)
         if response.status_code != 200:
             print(f"❌ 下载失败: {response.status_code}")
             return False
         with open(save_path, "wb") as f:
             f.write(response.content)
         print(f"✅ spider 图片已保存: {save_path} ({len(response.content)} 字节)")
+        
+        # 将配置中的 spider 替换为本地路径
+        config["spider"] = LOCAL_SPIDER_PATH
+        print(f"🔄 spider 字段已更新为本地路径: {LOCAL_SPIDER_PATH}")
         return True
     except Exception as e:
-        print(f"⚠️ 下载跳过: {e}")
+        print(f"⚠️ 下载或替换失败: {e}")
         return False
 
 def main():
     print("=" * 50)
-    print("🔄 更新嗷呜配置（仅更新相同key的站点）")
+    print("🔄 更新嗷呜配置（更新相同key + 本地化spider -> aw1.png）")
     print("=" * 50)
     
     # 1. 获取最新嗷呜配置
@@ -174,29 +181,30 @@ def main():
     if existing is None:
         sys.exit(1)
     
-    # ★★★ 深拷贝一份原始配置用于比较 ★★★
+    # 3. 保存原始副本用于比较
     original = deepcopy(existing)
     
-    # 3. 按 key 合并（直接修改 existing）
-    print("\n📋 开始对比更新...")
+    # 4. 按 key 合并站点
+    print("\n📋 开始对比更新站点...")
     merged = merge_by_key(existing, new_config)
     
-    # 4. ★★★ 比较原始与修改后的配置 ★★★
-    if json.dumps(original, sort_keys=True) == json.dumps(merged, sort_keys=True):
-        print("✅ 配置无变化，无需提交")
-    else:
+    # 5. 处理 spider 字段（下载 + 本地化）
+    print("\n📋 处理 spider 字段...")
+    spider_updated = download_and_localize_spider(merged)
+    
+    # 6. 检查是否有任何变化
+    config_changed = json.dumps(original, sort_keys=True) != json.dumps(merged, sort_keys=True)
+    
+    if config_changed or spider_updated:
         if not save_config(merged):
             sys.exit(1)
-    
-    # 5. 下载 spider 图片（仅当 URL 有效）
-    spider_url = extract_spider_url(merged)
-    if spider_url:
-        download_spider_image(spider_url)
+        print("✅ 配置已更新并保存")
     else:
-        print("ℹ️ 未检测到有效的 spider 图片链接，跳过下载")
+        print("✅ 配置无变化，无需提交")
     
     print("\n✨ 更新完成！")
     print(f"📁 配置文件: {CONFIG_FILE}")
+    print(f"📁 图片路径: {LOCAL_SPIDER_PATH}")
     print("=" * 50)
 
 if __name__ == "__main__":
