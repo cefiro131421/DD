@@ -22,13 +22,6 @@
       "searchable": 0
     },
     {
-      "key": "config",
-      "name": "⚙️配置┃核心设置",
-      "type": 3,
-      "api": "csp_Config",
-      "searchable": 0
-    },
-    {
       "key": "天天",
       "name": "🚀秒播┃高清影视",
       "type": 3,
@@ -326,17 +319,6 @@
         "type": "rect",
         "ratio": 3.8
       }
-    },
-    {
-      "key": "push_agent",
-      "name": "📤推送┃设备播放",
-      "type": 3,
-      "filterable": 0,
-      "changeable": 0,
-      "api": "csp_Push",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": ""
     }
   ],
   "parses": [
