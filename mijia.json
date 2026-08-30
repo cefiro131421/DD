@@ -15,11 +15,11 @@
       "key": "豆豆",
       "name": "🎬豆瓣┃精选推荐",
       "type": 3,
-      "quickSearch": 0,
+      "quickSearch": 1,
       "filterable": 1,
-      "changeable": 0,
+      "changeable": 1,
       "api": "csp_Douban",
-      "searchable": 0
+      "searchable": 1
     },
     {
       "key": "天天",
