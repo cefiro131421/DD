@@ -32,19 +32,6 @@
       "ext": "http://v.rbotv.cn"
     },
     {
-      "key": "YunZhenXiang",
-      "name": "🚀秒播┃极速帧享",
-      "type": 3,
-      "api": "csp_YunZhenXiang",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "index_url": "./lib/com.huohuavideo.app.json",
-        "key_api": "https://www.tangsan.fun/zx.php"
-      }
-    },
-    {
       "key": "AiKan_Spider",
       "name": "🚀秒播┃爱看剧场",
       "type": 3,
@@ -55,30 +42,6 @@
       "ext": "http://43.248.117.123:4680"
     },
     {
-      "key": "HkybSpider",
-      "name": "🚀秒播┃世界影视",
-      "type": 3,
-      "api": "csp_HkybSpider",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": ""
-    },
-    {
-      "key": "爱影视",
-      "name": "👀爱影┃热门4K",
-      "type": 3,
-      "api": "csp_WhaleApp",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "proxy": "https://www.tangsan.fun/jingyu.php",
-        "site": "aiyingshi",
-        "pic": "http://222.211.75.252:23433"
-      }
-    },
-    {
       "key": "Yimi",
       "name": "👀咕噜┃热门4K",
       "type": 3,
@@ -87,15 +50,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": ""
-    },
-    {
-      "key": "4K影视2",
-      "name": "👀热门┃低版4K",
-      "type": 3,
-      "api": "csp_AppGet",
-      "quickSearch": 1,
-      "timeout": 12,
-      "ext": "https://appcms.4ksj.app|O3K6rYx75Q4xtiIE|V119"
     },
     {
       "key": "csp_Gz360",
@@ -138,22 +92,6 @@
       }
     },
     {
-      "key": "csp_PianKu8",
-      "name": "🍬山楂┃热门4K",
-      "type": 3,
-      "api": "csp_PianKu8"
-    },
-    {
-      "key": "枫叶影视",
-      "name": "🍁枫叶┃热门4K",
-      "type": 3,
-      "api": "csp_FengYe",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://www.vip1949.com/"
-    },
-    {
       "key": "ciyuancheng",
       "name": "🍚次元┃热门动漫",
       "type": 3,
@@ -164,26 +102,6 @@
       "ext": "{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxNDU3ODYzLCJ1c2VybmFtZSI6Im5pbWFzaWxlIiwidG9rZW5faWQiOiIwMU0xMzdZUzJKQzE2TjFQUFBEWVJQMjY4TSIsInRva2VuX3ZlcnNpb24iOjEsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA5MCIsImF1ZCI6WyIiXSwiZXhwIjoxNzg4NDkzOTQ5LCJuYmYiOjE3ODc4ODkxNDksImlhdCI6MTc4Nzg4OTE0OX0.eNU6laARau9gs8n59cMinPnKQ_vfGQGAnwdf9CBQVT4\"}"
     },
     {
-      "key": "manshan",
-      "name": "🍚漫闪┃热门动漫",
-      "type": 3,
-      "api": "csp_Manshan",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "{\"deviceId\":\"你的自定义设备ID(可选)\"}"
-    },
-    {
-      "key": "稀饭动漫[APP]",
-      "name": "🍚稀饭┃热门动漫",
-      "type": 3,
-      "api": "csp_CycSpider",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.tangsan.fun/config.php?source=xifan"
-    },
-    {
       "key": "csp_HongGuo",
       "name": "🍎果子┃精选短剧",
       "type": 3,
@@ -191,14 +109,6 @@
       "quickSearch": 1,
       "searchable": 1,
       "changeable": 0
-    },
-    {
-      "key": "csp_duanju",
-      "name": "🔥盒马┃精选短剧",
-      "type": 3,
-      "timeout": 12,
-      "genre": "shortdrama",
-      "api": "csp_HeMa"
     },
     {
       "key": "csp_QM",
@@ -255,27 +165,6 @@
         "host": "",
         "site": "./lib/app_xpg_android.txt",
         "version": "1.0.0.3",
-        "decrypt": "1"
-      }
-    },
-    {
-      "key": "橘汁",
-      "name": "👀橘汁┃高清影视",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "橘汁",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-        "dataKey": "OW1WBLFZCLJ0WTNJCDMYEGXWYVP3PT0=",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "commonKey": "ed5fdsgucxumegqa",
-        "pkg": "com.mxj.wylcjbxyx",
-        "host": "http://juziapp.hzhcbkj.cn",
-        "site": "./lib/app.txt",
-        "version": "3.0.2.3",
         "decrypt": "1"
       }
     },
