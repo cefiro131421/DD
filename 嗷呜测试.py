@@ -16,7 +16,7 @@ from pathlib import Path
 from copy import deepcopy
 
 # ============ 配置 ============
-DECRYPT_API = "https://bjq.catvod.site/api/decrypt"
+DECRYPT_API = "https://jm.jiduonb.com/api/decrypt"
 TARGET_URL = "http://www.英格里希嗷呜.top/tv"
 JAR_DIR = Path("jar")
 CONFIG_FILE = Path("aowu测试.json")
