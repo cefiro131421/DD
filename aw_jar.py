@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 自动更新嗷呜接口的jar包（spider字段图片）
-API: https://bjq.catvod.site/api/decrypt
+API: https://www.qiushui.vip/gj/jiemi/raw/?url=
 目标仓库: https://github.com/cefiro131421/DD/tree/master/jar
 """
 
@@ -13,7 +13,7 @@ import requests
 from pathlib import Path
 
 # ============ 配置 ============
-DECRYPT_API = "https://bjq.catvod.site/api/decrypt"  # ← 仅修改此处
+DECRYPT_API = "https://www.qiushui.vip/gj/jiemi/raw/?url="  # ← 仅修改此处
 TARGET_URL = "http://www.英格里希嗷呜.top/tv"
 JAR_DIR = Path("jar")
 # ==============================
