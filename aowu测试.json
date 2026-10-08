@@ -239,7 +239,7 @@
       "api": "csp_HgggAmns",
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 1,
+      "changeable": 0,
       "ext": "DjHggg",
       "genre": "shortdrama"
     },
@@ -248,8 +248,8 @@
       "key": "HHkk",
       "type": 3,
       "api": "csp_HHkkAmns",
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "changeable": 1,
       "genre": "shortdrama"
     },
