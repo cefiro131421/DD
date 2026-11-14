@@ -323,7 +323,7 @@
       "changeable": 1
     },
     {
-      "name": "⭐荐片┃快速",
+      "name": "🔆荐片┃快速",
       "key": "JPian",
       "type": 3,
       "api": "csp_JPianAmns",
@@ -333,7 +333,7 @@
       "ext": "JPian"
     },
     {
-      "name": "⭐热播┃快速",
+      "name": "🔆热播┃快速",
       "key": "Rbys",
       "type": 3,
       "api": "csp_RbysAmns",
@@ -343,7 +343,7 @@
       "ext": "Rbys"
     },
     {
-      "name": "⭐杜北┃秒播",
+      "name": "🔆杜北┃秒播",
       "key": "Dubk",
       "type": 3,
       "api": "csp_DubkAmns",
@@ -362,7 +362,7 @@
       "changeable": 1
     },
     {
-      "name": "⭐爱看┃采集",
+      "name": "🔆爱看┃采集",
       "key": "AiBot",
       "type": 3,
       "api": "csp_AiBotAmns",
@@ -583,7 +583,7 @@
       "genre": "music"
     },
     {
-      "name": "🔍fish┃盘搜",
+      "name": "🔍飞鱼┃盘搜",
       "key": "PSfish",
       "type": 3,
       "api": "csp_PSfishAmns",
