@@ -5,7 +5,7 @@
   "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
   "sites": [
     {
-      "name": "🔥豆瓣┃推荐",
+      "name": "🔥┃豆瓣┃推荐",
       "key": "Douban",
       "type": 3,
       "api": "csp_DoubanAmns",
@@ -16,7 +16,7 @@
       "ext": "Douban"
     },
     {
-      "name": "⚙️配置┃中心",
+      "name": "⚙️┃配置┃中心",
       "key": "MyConfig",
       "type": 3,
       "api": "csp_AAConfigAmns",
@@ -25,7 +25,7 @@
       "changeable": 0
     },
     {
-      "name": "🚀秋天┃秒播",
+      "name": "🚀┃秋天┃秒播",
       "key": "NewGrV2",
       "type": 3,
       "api": "csp_NewGrV2Amns",
@@ -35,7 +35,7 @@
       "ext": "NewGrV2"
     },
     {
-      "name": "🚀韩剧┃秒播",
+      "name": "🚀┃韩剧┃秒播",
       "key": "Hxq",
       "type": 3,
       "api": "csp_HxqAmns",
@@ -44,7 +44,7 @@
       "changeable": 1
     },
     {
-      "name": "🚀瓜子┃秒播",
+      "name": "🚀┃瓜子┃秒播",
       "key": "Guazi",
       "type": 3,
       "api": "csp_GuaziAmns",
@@ -54,7 +54,7 @@
       "ext": "Guazi"
     },
     {
-      "name": "📦浮舟┃APP",
+      "name": "📦┃浮舟┃APP",
       "key": "AppV7Fz",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -64,7 +64,7 @@
       "ext": "AppV7Fz"
     },
     {
-      "name": "📦星野┃APP",
+      "name": "📦┃星野┃APP",
       "key": "AppV7Xy",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -74,7 +74,7 @@
       "ext": "AppV7Xy"
     },
     {
-      "name": "📦织锦┃APP",
+      "name": "📦┃织锦┃APP",
       "key": "AppV7Zjdr",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -84,7 +84,7 @@
       "ext": "AppV7Zjdr"
     },
     {
-      "name": "📦玄珠┃APP",
+      "name": "📦┃玄珠┃APP",
       "key": "AppV7Xyz",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -94,7 +94,7 @@
       "ext": "AppV7Xyz"
     },
     {
-      "name": "📦衔梦┃APP",
+      "name": "📦┃衔梦┃APP",
       "key": "AppV7Xnm",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -104,7 +104,7 @@
       "ext": "AppV7Xnm"
     },
     {
-      "name": "📦鸣泉┃APP",
+      "name": "📦┃鸣泉┃APP",
       "key": "AppV7Mtq",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -114,7 +114,7 @@
       "ext": "AppV7Mtq"
     },
     {
-      "name": "📦琳琅┃APP",
+      "name": "📦┃琳琅┃APP",
       "key": "AppV7Llq",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -124,7 +124,7 @@
       "ext": "AppV7Llq"
     },
     {
-      "name": "📦衔石┃APP",
+      "name": "📦┃衔石┃APP",
       "key": "AppV7Xsz",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -134,7 +134,7 @@
       "ext": "AppV7Xsz"
     },
     {
-      "name": "📦星海┃APP",
+      "name": "📦┃星海┃APP",
       "key": "AppV7Xhr",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -183,7 +183,7 @@
       "ext": "db8b57143fce50cabe524135fd3fb26e4af09034942cb186addd2322edf17ab6c9b7862764598039301c43cf706efcd55499494d72c680001c30550747b3dc5994760e3d6e17208e5ed771b2b4162f65e72b3e530fdd9622474e1c5f8aecda41dcd17901c7ddc61193a63fd8aaa1a96dc8673f93a8116755fd04bb1baaa93215334aaa1327972f2dd7292eb3d593e60cad0b9a3dde2a1158640cfc93dac5af45ddd8f971e3be0ccb5c776752b9b92a7f67dc89375d7ad442bddb0c661554a03c420029010a932d2dd8e65d6dc5"
     },
     {
-      "name": "🐱新帆┃动漫",
+      "name": "🐱┃新帆┃动漫",
       "key": "DMxifan",
       "type": 3,
       "api": "csp_DMxifanAmns",
@@ -212,7 +212,7 @@
       "ext": "Bidys"
     },
     {
-      "name": "🛸厂长┃蓝光",
+      "name": "🛸┃厂长┃蓝光",
       "key": "Czzy",
       "type": 3,
       "api": "csp_CzzyAmns",
@@ -233,7 +233,7 @@
       "genre": "shortdrama"
     },
     {
-      "name": "📽️嗷嗚┃短剧",
+      "name": "📽️┃嗷嗚┃短剧",
       "key": "DjHggg",
       "type": 3,
       "api": "csp_HgggAmns",
@@ -244,7 +244,7 @@
       "genre": "shortdrama"
     },
     {
-      "name": "📽️豪堪┃短剧",
+      "name": "📽️┃豪堪┃短剧",
       "key": "HHkk",
       "type": 3,
       "api": "csp_HHkkAmns",
@@ -254,7 +254,7 @@
       "genre": "shortdrama"
     },
     {
-      "name": "📽️盒马┃短剧",
+      "name": "📽️┃盒马┃短剧",
       "key": "Hema",
       "type": 3,
       "api": "csp_HemaAmns",
@@ -264,7 +264,7 @@
       "genre": "shortdrama"
     },
     {
-      "name": "📽️拜拜┃短剧",
+      "name": "📽️┃拜拜┃短剧",
       "key": "Bddj",
       "type": 3,
       "api": "csp_BddjAmns",
@@ -274,7 +274,7 @@
       "genre": "shortdrama"
     },
     {
-      "name": "📽️围观┃短剧",
+      "name": "📽️┃围观┃短剧",
       "key": "Wgdj",
       "type": 3,
       "api": "csp_WgdjAmns",
@@ -284,7 +284,7 @@
       "genre": "shortdrama"
     },
     {
-      "name": "📽️喵喵┃短剧",
+      "name": "📽️┃喵喵┃短剧",
       "key": "Qmdj",
       "type": 3,
       "api": "csp_QmdjAmns",
@@ -294,7 +294,7 @@
       "genre": "shortdrama"
     },
     {
-      "name": "📽️星星┃短剧",
+      "name": "📽️┃星星┃短剧",
       "key": "Xydj",
       "type": 3,
       "api": "csp_XydjAmns",
@@ -314,7 +314,7 @@
       "changeable": 1
     },
     {
-      "name": "🚀金牌┃秒播",
+      "name": "🚀┃金牌┃秒播",
       "key": "JinPai",
       "type": 3,
       "api": "csp_JinPaiAmns",
@@ -323,7 +323,7 @@
       "changeable": 1
     },
     {
-      "name": "🔆荐片┃快速",
+      "name": "🔆┃荐片┃快速",
       "key": "JPian",
       "type": 3,
       "api": "csp_JPianAmns",
@@ -333,7 +333,7 @@
       "ext": "JPian"
     },
     {
-      "name": "🔆热播┃快速",
+      "name": "🔆┃热播┃快速",
       "key": "Rbys",
       "type": 3,
       "api": "csp_RbysAmns",
@@ -343,7 +343,7 @@
       "ext": "Rbys"
     },
     {
-      "name": "🔆杜北┃秒播",
+      "name": "🔆┃杜北┃快速",
       "key": "Dubk",
       "type": 3,
       "api": "csp_DubkAmns",
@@ -362,7 +362,7 @@
       "changeable": 1
     },
     {
-      "name": "🔆爱看┃采集",
+      "name": "🔆┃爱看┃采集",
       "key": "AiBot",
       "type": 3,
       "api": "csp_AiBotAmns",
@@ -371,7 +371,7 @@
       "changeable": 1
     },
     {
-      "name": "📡Bili┃Live",
+      "name": "📡┃Bili┃Live",
       "key": "Bilive",
       "type": 3,
       "api": "csp_BiliveAmns",
@@ -384,7 +384,7 @@
       }
     },
     {
-      "name": "📡虎牙┃Live",
+      "name": "📡┃虎牙┃Live",
       "key": "HuyaLive",
       "type": 3,
       "api": "csp_HuyaLiveAmns",
@@ -397,7 +397,7 @@
       }
     },
     {
-      "name": "🏆瓜子┃体育",
+      "name": "🏆┃瓜子┃体育",
       "key": "GuaziLive",
       "type": 3,
       "api": "csp_GuaziLiveAmns",
@@ -407,7 +407,7 @@
       "ext": "GuaziLive"
     },
     {
-      "name": "🏆飞球┃体育",
+      "name": "🏆┃飞球┃体育",
       "key": "FeiqLive",
       "type": 3,
       "api": "csp_FeiqLiveAmns",
@@ -416,7 +416,7 @@
       "changeable": 1
     },
     {
-      "name": "🏆88┃体育",
+      "name": "🏆┃叭叭┃体育",
       "key": "BbkqLive",
       "type": 3,
       "api": "csp_BbkqLiveAmns",
@@ -426,7 +426,7 @@
       "ext": "BbkqLive"
     },
     {
-      "name": "🏆咖啡┃体育",
+      "name": "🏆┃咖啡┃体育",
       "key": "KafLive",
       "type": 3,
       "api": "csp_KafLiveAmns",
@@ -435,7 +435,7 @@
       "changeable": 1
     },
     {
-      "name": "🎉合集┃哔哩",
+      "name": "🎉┃合集┃哔哩",
       "key": "BiliHeji",
       "type": 3,
       "api": "csp_BiliAmns",
@@ -453,7 +453,7 @@
       }
     },
     {
-      "name": "🎉歌曲┃哔哩",
+      "name": "🎉┃歌曲┃哔哩",
       "key": "BiliGequ",
       "type": 3,
       "api": "csp_BiliAmns",
@@ -470,7 +470,7 @@
       }
     },
     {
-      "name": "🎉戏曲┃哔哩",
+      "name": "🎉┃戏曲┃哔哩",
       "key": "BiliXiqu",
       "type": 3,
       "api": "csp_BiliAmns",
@@ -487,7 +487,7 @@
       }
     },
     {
-      "name": "📚少儿┃教育",
+      "name": "📚┃少儿┃教育",
       "key": "BiliSer",
       "type": 3,
       "api": "csp_BiliAmns",
@@ -504,7 +504,7 @@
       }
     },
     {
-      "name": "📚小学┃教育",
+      "name": "📚┃小学┃教育",
       "key": "BiliXxue",
       "type": 3,
       "api": "csp_BiliAmns",
@@ -521,7 +521,7 @@
       }
     },
     {
-      "name": "📚初中┃教育",
+      "name": "📚┃初中┃教育",
       "key": "BiliCzong",
       "type": 3,
       "api": "csp_BiliAmns",
@@ -538,7 +538,7 @@
       }
     },
     {
-      "name": "📚高中┃教育",
+      "name": "📚┃高中┃教育",
       "key": "BiliGzong",
       "type": 3,
       "api": "csp_BiliAmns",
@@ -555,7 +555,7 @@
       }
     },
     {
-      "name": "📖富强┃听书",
+      "name": "📖┃富强┃听书",
       "key": "TSty",
       "type": 3,
       "api": "csp_TStyAmns",
@@ -564,7 +564,7 @@
       "changeable": 1
     },
     {
-      "name": "📖文明┃听书",
+      "name": "📖┃文明┃听书",
       "key": "TStzg",
       "type": 3,
       "api": "csp_TStzgAmns",
@@ -573,7 +573,7 @@
       "changeable": 1
     },
     {
-      "name": "🎸酷狗┃音乐",
+      "name": "🎸┃酷狗┃音乐",
       "key": "KuGou",
       "type": 3,
       "api": "csp_KuGouAmns",
@@ -583,7 +583,7 @@
       "genre": "music"
     },
     {
-      "name": "🔍飞鱼┃盘搜",
+      "name": "🔍┃飞鱼┃盘搜",
       "key": "PSfish",
       "type": 3,
       "api": "csp_PSfishAmns",
@@ -592,7 +592,7 @@
       "changeable": 1
     },
     {
-      "name": "🛴推送┃播放",
+      "name": "🛴┃推送┃播放",
       "key": "push_agent",
       "type": 3,
       "api": "csp_PushAmns",
