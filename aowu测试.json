@@ -659,11 +659,11 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-    "name": "mursor",
-    "url": "https://live.ottiptv.cc/iptv.m3u?userid=6235037713&sign=eff484b18555bae039ee9dc989225306773e2addc6dec1ec356dcbe93c4f14ac94822de7ce9e19ea18d48e6901486dc0d607edaf91c3384251193925396fb32155dc933f5d1899&auth_token=8621b68929ac0653ca792928a5ff7d88",
-    "header": {
-            "User-Agent": "qqlive"
-        }
+      "name": "mursor",
+      "url": "https://live.ottiptv.cc/iptv.m3u?userid=6235037713&sign=eff484b18555bae039ee9dc989225306773e2addc6dec1ec356dcbe93c4f14ac94822de7ce9e19ea18d48e6901486dc0d607edaf91c3384251193925396fb32155dc933f5d1899&auth_token=8621b68929ac0653ca792928a5ff7d88",
+      "header": {
+        "User-Agent": "qqlive"
+      }
     },
     {
       "name": "IPTV",
