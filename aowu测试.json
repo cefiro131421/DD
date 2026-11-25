@@ -371,7 +371,7 @@
       "changeable": 1
     },
     {
-      "name": "📡┃Bili┃Live",
+      "name": "📡┃哔哩┃Live",
       "key": "Bilive",
       "type": 3,
       "api": "csp_BiliveAmns",
@@ -598,7 +598,7 @@
       "api": "csp_PushAmns",
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 1
+      "changeable": 0
     }
   ],
   "lives": [
